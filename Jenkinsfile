@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Checkout from Git') {                        
             steps {                                       
-                git branch: 'main', url: 'https://github.com/rameshkumarvermagithub/Web-dev-projects.git'
+                git branch: 'main', url: 'https://github.com/yash509/DevSecOps-Project.git'
             }
         }
         stage('Deployments') {
